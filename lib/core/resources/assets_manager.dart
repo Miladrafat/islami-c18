@@ -20,5 +20,8 @@ abstract final class AssetsManager {
   static const String mosqueHadeth =  "assets/images/Mosque_hadeth.png";
   static const String mosqueHadethDetails =  "assets/images/Mosque_hadeth_details.png";
 
+  static const String leftCorner =  "assets/images/img_left_corner.png";
+  static const String rightCorner =  "assets/images/img_right_corner.png";
+  static const String mosque =  "assets/images/mosque.png";
 
 }
