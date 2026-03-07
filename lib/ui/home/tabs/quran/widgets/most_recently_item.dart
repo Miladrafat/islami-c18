@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:islami_c18/core/resources/assets_manager.dart';
 import 'package:islami_c18/core/resources/colors_manager.dart';
+import 'package:islami_c18/model/sura_model.dart';
 
 class MostRecentlyItem extends StatelessWidget {
-  const MostRecentlyItem({super.key});
+  final SuraModel sura;
+  const MostRecentlyItem({super.key,required this.sura});
 
   @override
   Widget build(BuildContext context) {
@@ -17,17 +19,17 @@ class MostRecentlyItem extends StatelessWidget {
         Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-        Text("Al-Anbiya",style: TextStyle(
+        Text(sura.suraNameEn,style: TextStyle(
           fontSize: 24,
           fontWeight: FontWeight.w700,
           color: ColorsManager.black
         ),),
-        Text("الأنبياء",style: TextStyle(
+        Text(sura.suraNameAr,style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w700,
             color: ColorsManager.black
         ),),
-        Text("112 Verses",style: TextStyle(
+        Text("${sura.versesNumber} Verses",style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.w700,
             color: ColorsManager.black
