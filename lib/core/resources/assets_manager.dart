@@ -19,9 +19,17 @@ abstract final class AssetsManager {
   static const String rightCornerHadeth =  "assets/images/right_corner_hadeth.png";
   static const String mosqueHadeth =  "assets/images/Mosque_hadeth.png";
   static const String mosqueHadethDetails =  "assets/images/Mosque_hadeth_details.png";
-
   static const String leftCorner =  "assets/images/img_left_corner.png";
   static const String rightCorner =  "assets/images/img_right_corner.png";
   static const String mosque =  "assets/images/mosque.png";
-
+  static const String islami_Header="assets/images/Islamiheader.png";
+  static const String imageInCenter_1="assets/images/image_in_center_1.png";
+  static const String imageInCenter_2="assets/images/image_in_center_2.png";
+  static const String imageInCenter_3="assets/images/image_in_center_3.png";
+  static const String imageInCenter_4="assets/images/image_in_center_4.png";
+  static const String imageInCenter_5="assets/images/image_in_center_5.png";
+static const String sebha_Background="assets/images/Background.png";
+static const String sebha_logo="assets/images/Logo.png";
+static const String sebha_Header="assets/images/shebaHeader.png";
+static const String sebha_Body="assets/images/SebhaBody.png";
 }
